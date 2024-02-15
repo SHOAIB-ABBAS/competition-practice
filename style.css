@@ -1,0 +1,41 @@
+nav {
+    height: 70px;
+    width: 100vw;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 14px 16px;}
+.logo {
+    height: 50px;
+    width: 120px;
+    float: left;
+    margin-right: 620px;
+
+}
+.loginbutton,.singupbutton{
+    float: right;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    padding: 14px 16px;
+
+}
+.loginbutton:hover,.singupbutton:hover{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
